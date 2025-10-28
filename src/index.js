@@ -43,7 +43,7 @@ connectDB()
       console.error("\n index.js connectDB on error", error);
     });
 
-    server.listen(PORT || 5000, () => {
+    server.listen(PORT , () => {
       console.log(`\n server is running on ${PORT}`);
     });
   })
